@@ -1,0 +1,58 @@
+.form-group{
+}
+.form-control.red{
+    width: 50%;
+    margin-right: 40px;
+}
+
+.question{
+    height: 64px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.question.show-text{
+    height: 180px;
+    transition: all 0.5;
+
+}
+button {
+    margin-left: 30px;
+}
+.bg{
+    background-image: url(https://cdn.jsdelivr.net/gh/khloe1425/baitapmang@master/img/corner-4.png);
+    background-size: cover;
+    background-position: right;
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+.container{
+    width: 800px;
+}
+p{
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.show-text .icon-question{
+    transform: rotate(-180deg);
+    transition: all 0.5s;
+}
+.icon-question{
+    margin-right: 30px;
+    transition: all 0.5s;
+}
+.blue{
+    display: flex;
+}
+.wrap-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question{
+    border: 1px solid #ccc;
+
+}
+.question:hover{
+cursor: pointer;
+}
